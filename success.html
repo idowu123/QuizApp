@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Payment Successful</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f9;
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    color: #4caf50;
+}
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+button {
+    padding: 12px 25px;
+    font-size: 18px;
+    background: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background: #303f9f;
+}
+</style>
+</head>
+<body>
+
+<h2>🎉 Payment Received!</h2>
+<p>Thank you for your subscription. Your payment has been successfully received.</p>
+<p>Your passkey will be sent within 1 hour to your email and WhatsApp number.</p>
+
+<button onclick="goToApp()">Go Back to App</button>
+
+<script>
+function goToApp() {
+    // Redirect back to your main app page
+    location.href = "index.html"; // or your app start page
+}
+</script>
+
+</body>
+</html>
